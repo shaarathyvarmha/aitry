@@ -15,6 +15,6 @@ async function sendMessage() {
   });
 
   const data = await response.json();
-  chatBox.innerHTML += `<p><b>Gemini:</b> ${data.response}</p>`;
+  chatBox.innerHTML += `<p><b>A6:</b> ${data.response}</p>`;
   chatBox.scrollTop = chatBox.scrollHeight;
 }

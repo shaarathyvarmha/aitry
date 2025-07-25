@@ -5,7 +5,7 @@ import google.generativeai as genai
 # Create a Flask application
 # static_folder="../frontend" tells Flask where your HTML, CSS, and JS files are stored.
 # static_url_path="/" means they will be served at the root URL (http://127.0.0.1:5000/).
-app = Flask(__name__, static_folder="../frontend", static_url_path="/")
+app = Flask(__name__, static_folder="D:\Varmha_a6\1 Learm python\aitry\frontend", static_url_path="D:\Varmha_a6\1 Learm python\aitry\frontend")
 
 # Your Gemini API Key (this allows you to connect to Google's Gemini AI model)
 API_KEY = "AIzaSyDtCeRwSsZYyLT2Jcp9eQJ3-gZa9-utS1c"
